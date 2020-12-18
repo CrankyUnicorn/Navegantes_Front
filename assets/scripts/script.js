@@ -1,6 +1,6 @@
 window.onload = function(){
-    document.body.innerHTML = "<p>Navegante</p>" + document.body.innerHTML; 
-    document.getElementById("pc_container").innerHTML  += "<p>Bem-vindo aos mar.</p>"; 
+    //document.body.innerHTML = "<p>Navegante</p>" + document.body.innerHTML; 
+    //document.getElementById("pc_container").innerHTML  += "<p>Bem-vindo aos mar.</p>"; 
     //console.log("help");
     
     var canvas = document.getElementById("pc_canvas");
