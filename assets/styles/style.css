@@ -5,7 +5,9 @@
 	--ciena:#8a2b0d;
 	--caramel:#c75e24;
 	--coffeelait:#c79f59;
+	--laitcoffee:#eed19e;
 	--dirtwater:#a4956a;
+	--dirtwaterlight:#ddcfa9;
 	--graywater:#868569;
 	--gray:#756f61;
 	--grayblue:#586160;
@@ -24,19 +26,27 @@ html, body{
     font-size: 20px;
 }
 
-h3{
+h3 , h4, p{
     margin: 0;
     padding: 0;
 }
 
 input, select, textarea{
-    color: #fff;
+    color: var(--darkbrown);
     border: 0;
-    outline: #888 solid 2px;
+    outline: var(--dirtwaterlight) solid 2px;
     margin-right: 5px;
     
-    background-color: #888;
+    background-color: var(--dirtwaterlight);
 }
+
+table{
+    border-spacing: 0px 2px;
+    border-collapse: separate;
+    border: 0px solid var(--darkbrown);
+}
+
+
 
 /*NAVBAR*/
 .pc_entrance_navbar{
@@ -45,7 +55,7 @@ input, select, textarea{
     left: 0;
     right: 0;
     height: 40px;
-    background-color: #222;
+    background-color: var(--darkbrown);
     display: inline-block;
     overflow: hidden;
     filter: drop-shadow(0px 3px 3px #22222299);
@@ -61,7 +71,7 @@ input, select, textarea{
 .pc_entrance_navbar .pc_navbar_left a{
     float: left;
     text-decoration: none;
-    color: #ccc;
+    color: var(--laitcoffee);
     height: 40px;
     padding: 8px;
     animation: 600ms;
@@ -69,7 +79,7 @@ input, select, textarea{
 
 .pc_entrance_navbar .pc_navbar_left a:hover{
     color: #fff;
-    background-color: #444;
+    background-color: var(--gray);
 }
 
     /*right side*/
@@ -83,7 +93,7 @@ input, select, textarea{
 .pc_entrance_navbar .pc_navbar_right a{
     float: right;
     text-decoration: none;
-    color: #ccc;
+    color: var(--laitcoffee);
     height: 40px;
     padding: 8px;
     animation: 600ms;
@@ -91,7 +101,7 @@ input, select, textarea{
 
 .pc_entrance_navbar .pc_navbar_right a:hover{
     color: #fff;
-    background-color: #444;
+    background-color: var(--gray);
 }
 
     /*form*/
@@ -113,4 +123,50 @@ input, select, textarea{
     margin-left: auto;
     margin-right: auto;
     width: 600px;
+}
+
+.pc_intro_table{
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    
+}
+
+.pc_center{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align:center;
+}
+
+.pc_register{
+    width: 400px;
+    text-align:left;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pc_form_register input, select, textarea{
+    color: var(--darkbrown);
+    border: 0;
+    outline: var(--coffeelait) solid 2px;
+    margin-right: 0px;
+    
+    background-color: var(--laitcoffee);
+}
+
+.pc_selected_match:hover{
+	background-color: var(--coffeelait);
+}
+
+.pc_evenColor{
+    background-color: var(--ciena);
+}
+
+.pc_oddColor{
+    background-color: var(--caramel);
 }

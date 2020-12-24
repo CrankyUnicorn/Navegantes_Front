@@ -1,6 +1,6 @@
 <?php include 'htmldoc_start.php'; ?>
 
-<h3 style="text-align: center;">Introdução</h3>
+<h3 style="text-align: center;">Sobre</h3>
 
 <div class="pc_intro_map">
   

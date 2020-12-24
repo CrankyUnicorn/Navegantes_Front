@@ -1,1 +1,1 @@
-<?php include 'entrance.php'; ?>
+<?php include 'game_intro.php'; ?>

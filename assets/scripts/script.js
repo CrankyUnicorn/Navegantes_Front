@@ -60,7 +60,18 @@ window.onload = function(){
         return Math.floor(Math.random() * limit);
 
     }
+    
+    function startMatch(matchId){
+
+        console.log("help");       
+    } 
 
     //var aniInt = setInterval(animation,400);
 
 }
+
+ 
+function startMatch(matchId){
+
+    console.log("Match no. "+matchId+" ");       
+} 
