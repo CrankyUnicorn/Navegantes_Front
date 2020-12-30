@@ -8,6 +8,12 @@
   
   <?php include "view_player_match.php"; ?>
 
+  <form action="game_match_creation.php" method="post" class="pc_match pc_form_match" style="width: 600px;">
+      
+      <input type='submit' value='Nova Partida' name='newMatch' style="float:right; margin:0; padding:5px;">
+    
+    </form>
+
 </div>
 
 <?php include 'htmldoc_end.php'; ?>

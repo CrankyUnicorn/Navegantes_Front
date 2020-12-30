@@ -2,7 +2,7 @@
 
 <h3 style="text-align: center;">Navegantes</h3>
 
-<div id="pc_container pc_intro_map">
+<div class="pc_center" id="pc_container pc_intro_map">
   <canvas id="pc_canvas"></canvas>
 </div>
 

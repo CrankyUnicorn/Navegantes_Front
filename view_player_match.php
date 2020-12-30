@@ -30,7 +30,8 @@
 
 	$stmt = sqlsrv_query( $conn, $sql, $params);
 		
-	echo "<div class='pc_intro_table'><table class='pc_center pc_table'>";
+	echo "<div class='pc_intro_table'>";
+	echo "<table class='pc_center pc_table'>";
 	echo "<tr class=".$rowColor."><th>ID</th><th>ID Nome</th><th>Estado</th></tr>";
 	
 	if($stmt != false){
