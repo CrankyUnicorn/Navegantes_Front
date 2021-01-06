@@ -7,7 +7,7 @@
                 "Uid"=>"navegante", "PWD"=>"navega");  
             $conn = sqlsrv_connect($serverName, $connectionOptions);  
             if($conn == false){  
-                die(FormatErrors(sqlsrv_errors()));
+                die(var_dump(sqlsrv_errors()));
 			}else{
 				//echo("<p>Connecção bem sucedida!</p>");
 			}
