@@ -1,8 +1,5 @@
-const { test } = require('@jest/globals');
-const unity_t = require('./unity_t');
+const sum = require('./unity_t');
 
-
-test(
-'do some testing', () => {
-expect(unity_t.sub(5-2).toBe(5));
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
 });

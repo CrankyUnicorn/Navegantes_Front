@@ -1,8 +1,4 @@
-const { MODULESPECIFIER_TYPES } = require("@babel/types")
-
-const unity_t = {
-  add: (x,y) => x+y,
-  sub: (x,y) => x-y
-  
+function sum(a, b) {
+  return a + b;
 }
-module.exports =unity_t;
+module.exports = sum;
