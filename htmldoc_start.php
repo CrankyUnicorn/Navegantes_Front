@@ -8,7 +8,10 @@
         <link rel="icon" href="assets/icons/helm.png">
         
         <link href="assets/styles/style.css" rel="stylesheet" type="text/css">
-        <script src="assets/scripts/script.js" type="text/javascript"></script>
+
+        <!-- hack to fix require() and export{} related errors when trasnpiling from TypeScript -->
+        <script type="text/javascript">var exports = {};</script>
+        
     </head>
     <body>
     <?php session_start(); ?>

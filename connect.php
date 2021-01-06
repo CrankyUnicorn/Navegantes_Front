@@ -4,7 +4,7 @@
         {  
             $serverName = "ANDROID-8FE6A54\SQLEXPRESS,63572";  
             $connectionOptions = array("Database"=>"Navegantes",  
-                "Uid"=>"PedroCosta", "PWD"=>"Omega.000!");  
+                "Uid"=>"navegante", "PWD"=>"navega");  
             $conn = sqlsrv_connect($serverName, $connectionOptions);  
             if($conn == false){  
                 die(FormatErrors(sqlsrv_errors()));
